@@ -1,0 +1,27 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>particle</title>
+	<style>
+		body{
+			margin:0;
+			padding:0;
+			text-align: center; 
+		}
+		canvas{
+			margin:0 auto;
+			background:black;
+		}
+	</style>
+</head>
+<body>
+<!-- 
+<script src = "utils.js"></script>
+<script src = "html5.js"></script>
+<script src = "Particle.js"></script>
+<script src = "main.js"></script>
+ -->
+<script src = "particle.min.js"></script>
+
+</body>
+</html>

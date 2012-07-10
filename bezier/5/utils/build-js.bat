@@ -1,0 +1,1 @@
+cmd /k java -jar ../../../compiler.jar --js_output_file utils.min.js --js base.js --js Vector.js --js Timer.js --js Tween.js

@@ -1,0 +1,1 @@
+cmd /k java -jar ../../compiler.jar --js_output_file particle.min.js --js utils.js --js html5.js --js Particle.js --js main.js
