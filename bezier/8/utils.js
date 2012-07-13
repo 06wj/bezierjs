@@ -3,6 +3,11 @@
 	console.log.apply(console, arguments);	
 	}
 
+	win.extend = function(Child, Parent){
+		Child.prototype = new Parent();
+		Child.prototype.constructor = Child;
+	}
+
 	win.getElementOffset = function(elem)
 	{
 		var x = elem.offsetLeft, y = elem.offsetTop;
